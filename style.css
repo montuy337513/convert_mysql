@@ -1,0 +1,95 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	/*background-color: gray-scale;*/
+}
+body {
+	margin-top: 20px;
+	width: 100%;
+	
+}
+.spinner {
+    display: inline-block;
+    opacity: 1;
+    width: auto;
+    -webkit-transition: opacity 0.25s, width 0.25s;
+    -moz-transition: opacity 0.25s, width 0.25s;
+    -o-transition: opacity 0.25s, width 0.25s;
+    transition: opacity 0.25s, width 0.25s;
+}
+
+.has-spinner.active {
+    cursor:progress;
+}
+
+.has-spinner.active .spinner {
+    opacity: 1;
+    width: auto;
+}
+
+.has-spinner.btn.active .spinner {
+    min-width: 20px;
+}
+/*form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	background-color: #DDD;
+	-moz-border-radius: 16px; 
+	-webkit-border-radius: 16px; 
+	border-radius: 16px;
+	border: none;
+}
+fieldset {
+	font-weight: bold;
+	text-align: center;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom-color: gray;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+p {
+	text-align: center;
+}
+input {
+	margin: 10px 20px 10px 20px;
+}*/
+.contenu {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.yesno {
+	margin-left: 80px;
+	text-align: left;
+}
+.bouton {
+	padding: 5px 10px 5px 10px;
+	margin-left: 350px;
+}
+.ligne {
+	margin: 10px 0 10px 0;
+	display: table;
+	width: 480px;
+	border-bottom-color: gray;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.nom {
+	width: 100px;
+	display: table-cell;
+	
+}
+.texte {
+	text-align: left;
+	width: 300px;
+	display: table-cell;
+}
+.error {
+	font-weight: bold;
+	font-color: red;
+}
