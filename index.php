@@ -59,7 +59,7 @@ require __DIR__.'/inc/functions.php';
 $temp = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['SERVER_NAME'].$_SERVER['SCRIPT_NAME'];
 $url = str_ireplace('/index.php','',$temp);
 // Appel de Smarty
-require __DIR__.'/inc/smarty/Smarty.class.php';
+require __DIR__.'/inc/smarty/Autoloader.php';
 // Lancement de Smarty
 $smarty = new Smarty();
 $smarty->setTemplateDir(__DIR__.'/tpl/');
