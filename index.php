@@ -2,8 +2,8 @@
 /*
         // Fichier pour la conversion de charset d'une base de donnée MySQL
 	// Auteur : Cédric MONTUY
-	// Date : 07 juillet 2020
-	// Version : 2.00
+	// Date : 27 novembre 2022
+	// Version : 3.00
 	// Plus de détail : https://github.com/montuy337513/convert_mysql
 	// Site internet : store.chg-web.com
 */
@@ -28,7 +28,7 @@ $password = '';
 $database = '';
 $host = 'localhost';
 $db_collation = 'utf8_general_ci';
-$version = '2.00';
+$version = '3.00';
 $debug_smarty = false;
 $langue = '';
 $langue_defaut = 'fr';
